@@ -1,0 +1,25 @@
+{
+    "name": "dnadesign/silverstripe-dev-tools",
+    "description": "A dev task to assist with testing various page types through a Silverstripe site.",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "dev",
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [{
+        "name": "DNA Design",
+        "email": "dev@dna.co.nz"
+    }],
+    "require": {
+        "silverstripe/framework": "^4 || ^5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DNADesign\\DevTools\\": "src/"
+        }
+    },
+    "extra": {
+        "installer-name": "silverstripe-dev-tools"
+    }
+}
