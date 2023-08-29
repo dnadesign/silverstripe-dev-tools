@@ -9,5 +9,5 @@ A dev task to assist with testing various page types through a Silverstripe site
 ## Installation
 
 ```
-composer require-dev dnadesign/silverstripe-dev-tools
+composer require dnadesign/silverstripe-dev-tools --dev
 ```
