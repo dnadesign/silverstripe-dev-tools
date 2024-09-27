@@ -37,7 +37,7 @@ class ViewAllPagesTypes extends BuildTask
         echo '<div class="task__panel">' .
                 '<div class="task__list">';
         foreach ($pageTypes as $className) {
-            $randomPage = $className::get()->sort('RAND()')->first();
+            $randomPage = $className::get()->shuffle()->first();
             echo    '<div class="task__item task__item--universal">' .
                         '<div>' .
                             '<h3 class="task__title">Page Title:' . $randomPage->Title . '</h3>' .
